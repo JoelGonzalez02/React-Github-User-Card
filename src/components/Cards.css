@@ -1,0 +1,70 @@
+.user-info  {
+    width: 30%;
+    height: 80vh;
+    background: linear-gradient(to top, #e6dada9a, #27404698);
+     display: flex;
+     flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 0 2px 0;
+    line-height: 10px;
+}
+
+.user-image {
+    padding-top: 40px;
+}
+
+img {
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.user {
+    font-size: 16px;
+    font-family: 'Coda', cursive;
+    letter-spacing: 1.5px;
+}
+
+.followers-card {
+   display: flex;
+     flex-direction: row;
+     flex-wrap: wrap; 
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.follower {
+  width: 30%;
+    height: 80vh;
+    background: linear-gradient(to top, #e6dada9a, #27404698);
+    margin: 40px 0 30px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 0 2px 0;
+    line-height: 10px;
+    text-align: center;
+}
+
+.follower-picture {
+    padding-top: 40px;
+}
+
+.follower-info {
+    padding: 10px;
+    font-family: 'Coda', cursive;
+    font-size: 25px;
+}
+
+
+.follower-text {
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    border-bottom: 1px dotted black;
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Coda', cursive;
+}
