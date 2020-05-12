@@ -39,7 +39,26 @@ img {
     font-size: 16px;
     font-family: 'Coda', cursive;
     letter-spacing: 1.5px;
-    margin-top: 30px;
+    margin-top: -10px;
+}
+
+.button {
+    background: linear-gradient(to top, #aaaaaa, #c9c9c9);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Coda', cursive;
+    border-radius: 5px;
+}
+
+.button:hover {
+    border: 1px solid #29c2ff;
 }
 
 .followers-card {
@@ -52,7 +71,7 @@ img {
 
 .follower {
   width: 300px;
-    height: 60vh;
+    height: 70vh;
     background: linear-gradient(to top, #e6dada9a, #27404698);
     margin: 40px 0 30px 0;
     border-radius: 10px;

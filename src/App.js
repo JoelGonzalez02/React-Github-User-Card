@@ -77,9 +77,6 @@ onSubmit = e => {
   });
 }
 
-
-
-
  componentDidMount() {
    axios
       .get('https://api.github.com/users/JoelGonzalez02')
@@ -144,7 +141,7 @@ onSubmit = e => {
            <div class='follower-text'>
             <h2>{this.state.user.name}'s followers </h2> 
            </div>
-           <FollowersCard followers={this.state.followers} />
+           <FollowersCard user={this.state.user} followers={this.state.followers} />
      </div>
    )
  }

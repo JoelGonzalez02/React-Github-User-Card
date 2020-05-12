@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({user}) => {
+const Card = ({user, followUser}) => {
 
     return ( 
         <div className='user-info'>
@@ -13,6 +13,9 @@ const Card = ({user}) => {
                 <p>Followers: {user.followers} </p>
                 <p>Following: {user.following}</p>
                 <p>Location: {user.location}</p>
+                <a href={`https://api.github.com/users/follow?target=${user.login}`} 
+                className='button'>Follow</a>
+                
             </div>
         </div>
 

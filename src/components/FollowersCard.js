@@ -13,6 +13,8 @@ const FollowersCard = ({followers}) => {
                         </div>
                      <div className='follower-info'>
                             <p><a href={follower.html_url}>{follower.login}</a></p>
+                            <a href={`https://api.github.com/users/follow?target=${follower.login}`} 
+                className='button'>Follow</a>
                     </div>
                     </div>
                 )
