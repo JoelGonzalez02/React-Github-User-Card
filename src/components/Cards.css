@@ -1,13 +1,14 @@
 .user-info  {
-    width: 30%;
-    height: 80vh;
+    width: 300px;
+    height:75vh;
+    padding: 10px 10px 20px 10px;
     background: linear-gradient(to top, #e6dada9a, #27404698);
      display: flex;
      flex-direction: column;
     margin: 0 auto;
     border-radius: 10px;
     border: 1px solid black;
-    box-shadow: 2px 0 2px 0;
+    box-shadow: 4px 2px 2px 0;
     line-height: 10px;
 }
 
@@ -16,17 +17,29 @@
 }
 
 img {
-    border-radius: 50px;
+    border-radius: 60px;
     border: 1px solid black;
-    width: 80%;
+    width: 85%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
+    animation: borderColors 3s infinite linear alternate;
 }
+
+@keyframes borderColors {
+    0% {border: 3px solid #29c2ff}
+    25% {border: 3px solid rgb(218, 18, 201)}
+    50% {border: 3px solid #29c2ff}
+    75% {border: 3px solid rgb(48, 62, 255);}
+    100% {border: 3px solid #29c2ff;}
+}
+
+
 
 .user {
     font-size: 16px;
     font-family: 'Coda', cursive;
     letter-spacing: 1.5px;
+    margin-top: 30px;
 }
 
 .followers-card {
@@ -38,13 +51,13 @@ img {
 }
 
 .follower {
-  width: 30%;
-    height: 80vh;
+  width: 300px;
+    height: 60vh;
     background: linear-gradient(to top, #e6dada9a, #27404698);
     margin: 40px 0 30px 0;
     border-radius: 10px;
     border: 1px solid black;
-    box-shadow: 2px 0 2px 0;
+    box-shadow: 4px 2px 2px 0;
     line-height: 10px;
     text-align: center;
 }

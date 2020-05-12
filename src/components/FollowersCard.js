@@ -1,6 +1,6 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 
-const FollowersCard = ({user, followers}) => {
+const FollowersCard = ({followers}) => {
 
     return (
         
